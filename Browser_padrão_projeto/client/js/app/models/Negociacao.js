@@ -13,7 +13,7 @@ class Negociacao {
     }
 
     get data() {
-        data = new Date(this._data.getTime());
+        let data = new Date(this._data.getTime());
         return data;
     }
 
